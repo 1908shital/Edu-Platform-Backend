@@ -8,7 +8,7 @@ const connectDB = require("./config/Db");
 const authRoutes = require("./Routes/authRoutes");
 const courseRoutes = require("./Routes/courseRoutes");
 const enrollmentRoutes = require("./Routes/enrollmentRoutes");
-const reviewRoutes = require("./Routes/reviewRoutes");
+const reviewRoutes = require("./Routes/ReviewRoutes");
 const userRoutes = require("./Routes/userRoutes");
 
 const app = express();
